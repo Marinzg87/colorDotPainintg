@@ -3,6 +3,8 @@ import turtle as t
 from colors import color_set
 
 tim = t.Turtle()
+tim.speed("fastest")
+tim.hideturtle()
 t.colormode(255)
 
 pos_x = -220
